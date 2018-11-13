@@ -44,7 +44,7 @@ h1 {
 .header {
 	background-color: #2699FB;
 	text-align: center;
-	font-size: 500%;
+	font-size: 540%;
 	text-transform: uppercase; /* All caps*/
 	color: #FFFFFF; /* Change to color white */
 	margin-block-start: 0%;
@@ -64,6 +64,20 @@ h1 {
 
 .contactInfoBG {
 	background-color: #FFFFFF;
+}
+
+.submitButton {
+	background-color: #2699FB;
+	color: #FFFFFF;
+	text-align: center;
+	margin-top: 1%;
+	margin-bottom: 3%;
+	line-height: 200%;
+	width: 100%;
+}
+
+.generalInquiries {
+	float: right;
 }
 
 .menu {
@@ -108,6 +122,10 @@ h1 {
 	
 	body {
 	width: 100%;
+	}
+	
+	.header {
+	font-size: 260%;
 	}
 	
 	.headerHide {

@@ -19,17 +19,17 @@
 	<body>
 	<header>
 		<!-- Header for company name -->
-		<h1>COMPANY NAME</h1>
-		<img class='companyBG' src = "img/companylogoBG.png">
+		<h1 class="companyBG">COMPANY NAME</h1>
 		<!-- Navigation bar -->
-		<nav>
-			<ul id ='nav'>
-				<li><a href ="index.html">Home</a></li>
-				<li><a href ="product.html">Product</a></li>
-				<li><a href ="https://www.blogger.com/about/?r=1-null_user">Blog</a></li>
-			</ul>
+	<nav>
+		<ul class="menu">
+			<li class='menuItem'><a href ="index.html">Home</a></li>
+			<li class='menuItem'><a href ="product.html">Product</a></li>
+			<li class='menuItem'><a href ="https://www.blogger.com/about/?r=1-null_user">Blog</a></li>
 		<!-- End of navigation bar -->
-		</nav>
+		</ul>
+		<!-- End of navigation bar -->
+	</nav>
 	</header>
 	<section>
 		<!-- Contents -->
@@ -41,7 +41,7 @@
 		<p> More information </P>
 		<fieldset class='contactInfoBG'>
 			<label>Select topic</label>
-			<select>
+			<select class='generalInquiries'>
 				<option value="general">General inquiries</option>
 				<option value="press">Press relations</option>
 				<option value="recruitement">Recruitement</option>
@@ -70,6 +70,7 @@
 			></textarea>
 		</fieldset>
 		<input
+			class="submitButton"
 			type="submit"
 			value="Submit"
 		/>
