@@ -84,8 +84,17 @@ h1 {
 
 .generalInquiries {
 	float: right;
-	width: 60%;
-	font-size: 120%
+	width: 65%;
+	font-size: 150%
+}
+
+.formName {
+	width: 90%;
+	font-size: 150%;
+}
+
+.formMargin {
+	margin-top: 2%;
 }
 
 .infoBox {
