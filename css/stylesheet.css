@@ -27,6 +27,7 @@ body {
 	background-image: url("../img/companylogoBG.jpg");
 	width: 100%;
 	background-size: cover;
+	text-align: center;
 	margin-block-start: 0%;
     margin-block-end: 0%;
 	font-size: 500%;
@@ -74,6 +75,14 @@ h1 {
 	background-color: #FFFFFF;
 }
 
+input {
+	border-width: 0px;
+}
+
+textarea {
+	border-width: 0px;
+}
+
 .submitButton {
 	background-color: #2699FB;
 	color: #FFFFFF;
@@ -105,11 +114,11 @@ h1 {
 .infoBox {
 	margin-left: 7%;
 	margin-right: 7%;
-	font-size: 150%
+	font-size: 100%
 }
 
 .selectTopic {
-	font-size: 120%;
+	font-size: 125%;
 	color: #AAAAAA;
 }
 
@@ -142,28 +151,34 @@ h1 {
 }
 
 /* Product */
+
 .imageBox {
 	background-color: #FFFFFF;
 }
 
 .flex-container {
 	display: flex;
-	height: 100%;
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: flex-start;
 	align-items: flex-start;
 	margin: auto;
+	background-color: #FFFFFF
 } 
 
 .productImage {
-	width: 100%;
-	height: 300px;
+	width: 30%;
 	margin: auto;
-	padding: 5px;
-	max-width: 400px;
+	padding: 1%;
 }
 
+.paired {
+	display: block;
+}
+
+.paired-item {
+	flex: 1 1 0;
+}
 
 /* THIS IS MEDIA QUEARIES */
 
@@ -172,8 +187,6 @@ h1 {
 	font-size: 400%;
 	}
 }
-
-
 
 @media screen and (max-width: 960px) { /* for tablet */
 	html {
@@ -193,6 +206,24 @@ h1 {
 	}
 	.header {
 	font-size: 450%;
+	}
+	
+	.productImage {
+		width: 40%;
+	}
+	.paired {
+		display: flex;
+	}
+	.paired-item {
+	flex: 30%;
+	}
+	
+	.product {
+	height: 100%;
+	}
+	
+	.catalog {
+		display: none;
 	}
 	
 } 
@@ -222,6 +253,10 @@ h1 {
 	display: block;
 	}
 	
+	.catalog {
+	display: block;
+	}
+	
 	.productMobile {
 	background-color: #FFFFFF;
 	}
@@ -230,7 +265,13 @@ h1 {
 		margin-bottom: 5%;
 	}
 	
+	.productImage {
+		width: 100%;
+	}
 	
+	.paired {
+		display: block;
+	}
 }
 
 
