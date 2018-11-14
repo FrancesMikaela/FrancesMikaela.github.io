@@ -46,7 +46,7 @@ h1 {
 .header {
 	background-color: #2699FB;
 	text-align: center;
-	font-size: 540%;
+	font-size: 700%;
 	text-transform: uppercase; /* All caps*/
 	color: #FFFFFF; /* Change to color white */
 	margin-block-start: 0%;
@@ -93,7 +93,7 @@ textarea {
 	margin-right: 7%;
 	line-height: 200%;
 	width: 86%;
-	font-size: 200%;
+	font-size: 150%;
 }
 
 .generalInquiries {
@@ -130,6 +130,8 @@ textarea {
 .moreInfo {
 	font-size: 200%
 }
+
+/* Navigation Bar */
 
 .menu {
 	display: flex;
@@ -182,11 +184,6 @@ textarea {
 
 /* THIS IS MEDIA QUEARIES */
 
-@media screen and (max-width: 1024px) { /* for tablet */
-	.header {
-	font-size: 400%;
-	}
-}
 
 @media screen and (max-width: 960px) { /* for tablet */
 	html {
@@ -208,6 +205,8 @@ textarea {
 	font-size: 450%;
 	}
 	
+	/* product */
+	
 	.productImage {
 		width: 40%;
 	}
@@ -226,9 +225,17 @@ textarea {
 		display: none;
 	}
 	
+	/* Contact */ 
+	
+	.generalInquiries {
+	float: left;
+	width: 100%;
+	font-size: 150%
+	}
+	
 } 
 
-@media screen and (max-width: 376px) { /* for mobile */
+@media screen and (max-width: 414px) { /* for mobile */
 	html {
 	background-image: none;
 	}
@@ -238,7 +245,11 @@ textarea {
 	}
 	
 	.header {
-	font-size: 260%;
+	font-size: 200%;
+	}
+	
+	.companyBG {
+	font-size: 300%;
 	}
 	
 	.headerHide {
@@ -265,12 +276,38 @@ textarea {
 		margin-bottom: 5%;
 	}
 	
+	.footer {
+		font-size: 100%;
+	}
+	
+	/* Product */
 	.productImage {
 		width: 100%;
 	}
 	
 	.paired {
 		display: block;
+	}
+	/* Contact */
+	
+	.submitButton {
+	line-height: 200%;
+	width: 86%;
+	font-size: 90%;
+	}
+	
+	.formName {
+	width: 80%;
+	font-size: 150%;
+}
+	.moreInfo {
+	font-size: 150%;
+	}
+	
+	.generalInquiries {
+	float: left;
+	width: 100%;
+	font-size: 100%
 	}
 }
 
