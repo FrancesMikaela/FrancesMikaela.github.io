@@ -13,70 +13,75 @@
 			type="text/css"
 			href="css/stylesheet.css"
 		/>
+		<!-- FavIcon -->
+		<link rel="icon" sizes="16x16" href="img/favicon.png"/>
+		<link rel="icon" sizes="152x152" href="img/favicon_android.png"/>
+		<link rel="icon" sizes="57x57" href="img/favicon_ios.png"/>
+		<link rel="icon" sizes="128x128" href="img/favicon_mac.png"/>
+		<link rel="icon" sizes="48x48" href="img/favicon.ico"/>
 		
 		<title>Contact</title>
 	</head>
 	<body>
-	<header>
-		<!-- Header for company name -->
-		<h1 class="companyBG">COMPANY NAME</h1>
-		<!-- Navigation bar -->
-	<nav>
-		<ul class="menu">
-			<li class='menuItem'><a href ="index.html">Home</a></li>
-			<li class='menuItem'><a href ="product.html">Product</a></li>
-			<li class='menuItem'><a href ="https://www.blogger.com/about/?r=1-null_user">Blog</a></li>
-		<!-- End of navigation bar -->
-		</ul>
-		<!-- End of navigation bar -->
-	</nav>
-	</header>
-	<section>
-		<!-- Contents -->
-		<h2 class='header'>Contact</h2>
-		<!-- Contact Information -->
-	</section>
-		<form action="nowhere.php" method="post">
-		<fieldset class ='contactInfoBG'>
-		<p class='moreInfo margin color'> More information </P>
-		<fieldset class='contactInfoBG infoBox'>
-			<label class='selectTopic'>Select topic</label>
-			<select class='generalInquiries color'>
-				<option value="general">General inquiries</option>
-				<option value="press">Press relations</option>
-				<option value="recruitement">Recruitement</option>
-			</select>
-		</fieldset>
-		<fieldset class="contactFormFieldset infoBox formMargin">
+		<header>
+			<!-- Header for company name -->
+			<h1 class="companyBG">COMPANY NAME</h1>
+			<!-- Navigation bar -->
+		<nav>
+			<ul class="menu">
+				<li class='menuItem'><a href ="index.html">Home</a></li>
+				<li class='menuItem'><a href ="product.html">Product</a></li>
+				<li class='menuItem'><a href ="https://www.blogger.com/about/?r=1-null_user">Blog</a></li>
+			<!-- End of navigation bar -->
+			</ul>
+		</nav>
+		</header>
+		<section>
+			<!-- Contents -->
+			<h2 class='header'>Contact</h2>
+			<!-- Contact Information -->
+		</section>
+			<form action="nowhere.php" method="post">
+			<fieldset class ='contactInfoBG'>
+			<p class='moreInfo margin'> More information </P>
+			<fieldset class='contactInfoBG contactFormFieldset'>
+				<label class='selectTopic'>Select topic</label>
+				<select class='generalInquiries color'>
+					<option value="general">General inquiries</option>
+					<option value="press">Press relations</option>
+					<option value="recruitement">Recruitement</option>
+				</select>
+			</fieldset>
+			<fieldset class="contactFormFieldset formMargin">
+				<input
+					class="formName"
+					type="text"
+					name="contactFormName"
+					placeholder="Your name.."
+				/>
+			</fieldset>
+			<fieldset class="contactFormFieldset formMargin">
+				<input
+					class="formName"
+					type="email"
+					name="email"
+					placeholder="Your email.."
+				/>
+			</fieldset>
+			<fieldset class='contactFormFieldset formMargin'>
+				<textarea
+					class="formName"
+					rows="7"
+					cols="40"
+					name="message"
+					placeholder="Write something.."
+				></textarea>
+			</fieldset>
 			<input
-				class="formName"
-				type="text"
-				name="contactFormName"
-				placeholder="Your name.."
+				class="submitButton"
+				type="submit"
+				value="Submit"
 			/>
-		</fieldset>
-		<fieldset class="contactFormFieldset infoBox formMargin">
-			<input
-				class="formName"
-				type="email"
-				name="email"
-				placeholder="Your email.."
-			/>
-		</fieldset>
-		<fieldset class='infoBox formMargin'>
-			<textarea
-				class="formName"
-				rows="7"
-				cols="40"
-				name="message"
-				placeholder="Write something.."
-			></textarea>
-		</fieldset>
-		<input
-			class="submitButton"
-			type="submit"
-			value="Submit"
-		/>
 		</fieldset>
 		</form>
 	<footer> 
