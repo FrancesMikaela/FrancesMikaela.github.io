@@ -16,11 +16,13 @@ body {
 	font-family: 'MyFont';
 }
 
-#myVideo {
+.myVideo {
 	position: absolute;
+	right: 0;
+	bottom: 0;
+	min-width: 100%;
+	min-height: 100%;
 	z-index: -1;
-	max-width: 100%;
-	max-height: 100%;
 }
 
 .companyBG {
@@ -54,7 +56,7 @@ h2 {
 .header {
 	background-color: #2699FB;
 	text-align: center;
-	font-size: 675%;
+	font-size: 670%;
 	text-transform: uppercase; 
 	color: #FFFFFF; 
 }
@@ -223,7 +225,7 @@ textarea {
 		display: flex;
 	}
 	
-	#myVideo {
+	.myVideo {
 	display: none;
 	}
 	
@@ -270,7 +272,7 @@ textarea {
 	width: 100%;
 	}
 	
-	#myVideo {
+	.myVideo {
 	display: none;
 	}
 	
