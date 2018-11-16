@@ -259,7 +259,7 @@ textarea {
 	
 } 
 
-@media screen and (max-width: 414px) { /* for mobile */
+@media screen and (max-width: 416px) { /* for mobile */
 	html {
 	background-image: none;
 	background-color: #FFFFFF;
