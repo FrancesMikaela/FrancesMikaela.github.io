@@ -13,7 +13,7 @@
 body {
 	width: 50%;
 	margin: auto;
-	font-family: 'MyFont', Times New Roman, Times, Seriif;
+	font-family: 'MyFont', 'Times New Roman', 'Times', 'Serif';
 }
 
 .myVideo {	/* background video */
@@ -54,7 +54,6 @@ h2 {
 	color: #FFFFFF; 
 }
 .footer {
-	position: bottom; 
 	left: 0;
 	bottom: 0;
 	margin: 0;
