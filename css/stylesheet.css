@@ -7,13 +7,13 @@
 
 @font-face {
 	font-family: MyFont;
-	src: url("../fonts/PT_Sans-Web-Regular.ttf") format('truetype');
+	src: url("../fonts/PT_Sans-Narrow-Web-Regular.ttf") format('truetype');
 }
 
 body {
 	width: 50%;
 	margin: auto;
-	font-family: 'MyFont';
+	font-family: 'MyFont', Times New Roman, Times, Seriif;
 }
 
 .myVideo {	/* background video */
@@ -26,17 +26,15 @@ body {
 }
 
 .companyBG { /* Background for company name */
-	background-image: url("../img/companylogoBG.jpg");
-	width: 100%;
-	background-size: cover;
-	z-index: -1;
-	text-align: center;
-}
-h1 {
 	color: #FFFFFF;  
 	text-align: center;
-	margin: 0;
-	font-size: 400%;
+	font-size: 250%;
+	background-image: url("../img/companylogoBG.jpg");
+	width: 100%;
+	margin: auto auto;
+	background-size: cover;
+	padding-top: 1%;
+	padding-bottom: 1%;
 }
 
 h2 {
@@ -55,7 +53,8 @@ h2 {
 .header {
 	background-color: #2699FB;
 	text-align: center;
-	font-size: 670%;
+	width: 100%;
+	font-size: 800%;
 	text-transform: uppercase; 
 	color: #FFFFFF; 
 }
@@ -158,8 +157,10 @@ textarea {
 	display: block;
 	margin: 1% 1%;
 	text-transform: uppercase;
-	font-size: 140%;
+	font-size: 200%;
 	text-align: center;
+	padding-left: 2%;
+	padding-right: 2%;
 }
 
 .menuItem a {
@@ -232,6 +233,7 @@ textarea {
 	flex: 30%;
 	padding: 1%;
 	}
+
 	
 	
 	/* product */
