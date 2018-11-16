@@ -226,8 +226,12 @@ textarea {
 	flex: 30%;
 	padding: 1%;
 	}
+	
+	.companyBG {
+	font-size: 300%;
+	}
 
-	/* product */
+	/* Product */
 	
 	.productImage {
 		width: 40%;
@@ -274,8 +278,12 @@ textarea {
 	}
 	
 	.companyBG {
-	font-size: 300%;
+	font-size: 200%;%;
 	}
+	
+	.menuItem { /* Navigation bar */
+	font-size: 150%;
+}
 	
 	.headerHide {
 	display: none;
