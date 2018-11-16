@@ -181,7 +181,6 @@ textarea {
 
 .productImage {
 	width: 30%;
-	margin: auto;
 	padding: 1%;
 }
 
@@ -226,12 +225,6 @@ textarea {
 	font-size: 450%;
 	}
 	
-	/* product */
-	
-	.productImage {
-		width: 40%;
-	}
-	
 	.paired {
 		display: flex;
 	}
@@ -239,6 +232,13 @@ textarea {
 	.paired-item {
 	flex: 30%;
 	padding: 1%;
+	}
+	
+	
+	/* product */
+	
+	.productImage {
+		width: 40%;
 	}
 	
 	.product {
@@ -297,12 +297,9 @@ textarea {
 	}
 	
 	/* Product */
+
 	.productImage {
 		width: 100%;
-	}
-	
-	.productHide {
-	display: none;
 	}
 	
 	.tabletHide{
@@ -315,6 +312,11 @@ textarea {
 	
 	.paired-item {
 		padding: 0%;
+	}
+	
+	.productImage {
+	width: 30%;
+	padding: 1%;
 	}
 	
 	.product {
